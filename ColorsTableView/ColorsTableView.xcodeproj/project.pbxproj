@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1485F67F222F0E98007F8F0B /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485F67E222F0E98007F8F0B /* ColorsViewController.swift */; };
+		14C03B9F2251383300555FB6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C03B9E2251383300555FB6 /* Color.swift */; };
+		14C03BA322513BB100555FB6 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C03BA222513BB100555FB6 /* ColorDetailViewController.swift */; };
 		14DB8EBF222F0D3D009F24C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB8EBE222F0D3D009F24C3 /* AppDelegate.swift */; };
 		14DB8EC4222F0D3D009F24C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DB8EC2222F0D3D009F24C3 /* Main.storyboard */; };
 		14DB8EC7222F0D3D009F24C3 /* ColorsTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14DB8EC5222F0D3D009F24C3 /* ColorsTableView.xcdatamodeld */; };
@@ -28,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		1485F67E222F0E98007F8F0B /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		14C03B9E2251383300555FB6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		14C03BA222513BB100555FB6 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 		14DB8EBB222F0D3D009F24C3 /* ColorsTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorsTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DB8EBE222F0D3D009F24C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14DB8EC3222F0D3D009F24C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				14DB8ECA222F0D3E009F24C3 /* LaunchScreen.storyboard */,
 				14DB8ECD222F0D3E009F24C3 /* Info.plist */,
 				14DB8EC5222F0D3D009F24C3 /* ColorsTableView.xcdatamodeld */,
+				14C03B9E2251383300555FB6 /* Color.swift */,
+				14C03BA222513BB100555FB6 /* ColorDetailViewController.swift */,
 			);
 			path = ColorsTableView;
 			sourceTree = "<group>";
@@ -201,7 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				14DB8EBF222F0D3D009F24C3 /* AppDelegate.swift in Sources */,
+				14C03B9F2251383300555FB6 /* Color.swift in Sources */,
 				1485F67F222F0E98007F8F0B /* ColorsViewController.swift in Sources */,
+				14C03BA322513BB100555FB6 /* ColorDetailViewController.swift in Sources */,
 				14DB8EC7222F0D3D009F24C3 /* ColorsTableView.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
